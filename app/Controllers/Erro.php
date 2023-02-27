@@ -18,7 +18,7 @@ class Erro
     public function index()
     {
         $this->loadView = new \Core\ConfigView(
-            "Views/Erro/Erro", 
+            "Views/Home/Home", 
             $this->dados
         );
         $this->loadView->renderizar();

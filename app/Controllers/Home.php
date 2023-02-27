@@ -17,7 +17,7 @@ class Home
 
     public function __construct()
     {
-        
+        $_SESSION['stage'] = 1;
     }
 
     public function index()

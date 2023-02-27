@@ -3,7 +3,6 @@ if (!defined('URL')) {
     header("Location: ../../../Erro");
     exit();
 }
-$_SESSION['stage'] = 1;
 ?>
 
 
