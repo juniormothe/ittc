@@ -1,0 +1,49 @@
+body {
+  background-color: black !important;
+}
+
+hr {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+table td {
+  vertical-align: middle !important;
+}
+
+.mini-button {
+  padding: 3px !important;
+}
+
+.micro-button {
+  padding: 0px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  padding-bottom: 1px !important;
+}
+
+.card-body {
+  font-weight: normal !important;
+}
+
+.pagination {
+  color: #666 !important;
+}
+
+.modal-body {
+  font-weight: normal !important;
+}
+
+.button-disabled {
+  cursor: default !important;
+}
+
+.main-navbar .navbar .notifications .badge {
+  top: 15% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #tarvos-display {
+    display: none !important;
+  }
+}
