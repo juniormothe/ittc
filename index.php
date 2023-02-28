@@ -1,8 +1,8 @@
 <?php
 session_start();
 ob_start();
-require './core/Config.php';
 require './core/GlobalFunctions.php';
+require './core/Config.php';
 require './vendor/autoload.php';
 
 $Url = new Core\ConfigController();
