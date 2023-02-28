@@ -105,10 +105,10 @@ if (!isset($_SESSION['type'])) {
     $_SESSION['type'] = 1;
 }
 if (!isset($_SESSION['image_type_one'])) {
-    $_SESSION['image_type_one'] = classGoogleIcon(LEFT_RIGHT[rand(1, 10)], 'mega', 'danger');
+    $_SESSION['image_type_one'] = sizeAccuracy(LEFT_RIGHT[rand(1, 10)], 'mega', 'danger');
 }
 if (!isset($_SESSION['image_type_two'])) {
-    $_SESSION['image_type_two'] = classGoogleIcon(LEFT_RIGHT_REST[rand(1, 14)], 'mega', 'danger');
+    $_SESSION['image_type_two'] = sizeAccuracy(LEFT_RIGHT_REST[rand(1, 14)], 'mega', 'danger');
 }
 if (isset(POSTT['second'])) {
     $_SESSION['second'] = POSTT['second'];

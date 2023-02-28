@@ -34,6 +34,11 @@ function classGoogleIcon(string $codePoint, string $size = 'sm', string $color =
     return '<i class="material-icons text-' . $color . '" ' . $sizeIcon[$size] . '>&#x' . $codePoint . ';</i>';
 }
 
+function sizeAccuracy(string $codePoint, string $color = null)
+{
+    return '<i class="material-icons text-' . $color . ' size-accuracy">&#x' . $codePoint . ';</i>';
+}
+
 function nameMonth($month, $type = null)
 {
     $nameMonth = ['01' => 'janeiro', '02' => 'fevereiro', '03' => 'março', '04' => 'abril', '05' => 'maio', '06' => 'junho', '07' => 'julho', '08' => 'agosto', '09' => 'setembro', '10' => 'outubro', '11' => 'novembro', '12' => 'dezembro'];

@@ -46,4 +46,14 @@ table td {
   #tarvos-display {
     display: none !important;
   }
+
+  .size-accuracy {
+    font-size: 250px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .size-accuracy {
+    font-size: 500px !important;
+  }
 }

@@ -35,8 +35,8 @@ class Ajax
         if ($this->settings['start'] == 1) {
             $_SESSION['stage'] = ($_SESSION['stage'] + 1);
         }
-        $_SESSION['image_type_one'] = classGoogleIcon(LEFT_RIGHT[rand(1, 10)], 'mega', 'danger');
-        $_SESSION['image_type_two'] = classGoogleIcon(LEFT_RIGHT_REST[rand(1, 14)], 'mega', 'danger');
+        $_SESSION['image_type_one'] = sizeAccuracy(LEFT_RIGHT[rand(1, 10)], 'danger');
+        $_SESSION['image_type_two'] = sizeAccuracy(LEFT_RIGHT_REST[rand(1, 14)], 'danger');
     }
 
     public function displayStage()
