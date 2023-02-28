@@ -45,8 +45,8 @@ define('DBNAME', '');
 define('LIMIT_PG', 15);
 
 
-//PRODUÇÃO   
-/*
+//PRODUÇÃO  
+/* 
 $http_https = 'http://';
 define('GETT', filter_input_array(INPUT_GET,  FILTER_DEFAULT));
 define('POSTT', filter_input_array(INPUT_POST, FILTER_DEFAULT));
@@ -105,10 +105,10 @@ if (!isset($_SESSION['type'])) {
     $_SESSION['type'] = 1;
 }
 if (!isset($_SESSION['image_type_one'])) {
-    $_SESSION['image_type_one'] = sizeAccuracy(LEFT_RIGHT[rand(1, 10)], 'mega', 'danger');
+    $_SESSION['image_type_one'] = sizeAccuracy(LEFT_RIGHT[rand(1, 10)], 'danger');
 }
 if (!isset($_SESSION['image_type_two'])) {
-    $_SESSION['image_type_two'] = sizeAccuracy(LEFT_RIGHT_REST[rand(1, 14)], 'mega', 'danger');
+    $_SESSION['image_type_two'] = sizeAccuracy(LEFT_RIGHT_REST[rand(1, 15)], 'danger');
 }
 if (isset(POSTT['second'])) {
     $_SESSION['second'] = POSTT['second'];

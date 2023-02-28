@@ -36,7 +36,7 @@ class Ajax
             $_SESSION['stage'] = ($_SESSION['stage'] + 1);
         }
         $_SESSION['image_type_one'] = sizeAccuracy(LEFT_RIGHT[rand(1, 10)], 'danger');
-        $_SESSION['image_type_two'] = sizeAccuracy(LEFT_RIGHT_REST[rand(1, 14)], 'danger');
+        $_SESSION['image_type_two'] = sizeAccuracy(LEFT_RIGHT_REST[rand(1, 15)], 'danger');
     }
 
     public function displayStage()
