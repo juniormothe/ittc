@@ -14,7 +14,8 @@ function googleIcon(string $codePoint, string $size = 'sm', string $color = null
         'sm' => 'style="font-size:20px;"',
         'md' => 'style="font-size:25px;"',
         'lg' => 'style="font-size:30px;"',
-        'xl' => 'style="font-size:35px;"'
+        'xl' => 'style="font-size:30px;"',
+        'mega' => 'style="font-size:30em;"'
     ];
     echo '<i class="material-icons text-' . $color . '" ' . $sizeIcon[$size] . '>&#x' . $codePoint . ';</i>';
 }
@@ -27,7 +28,8 @@ function classGoogleIcon(string $codePoint, string $size = 'sm', string $color =
         'sm' => 'style="font-size:20px;"',
         'md' => 'style="font-size:25px;"',
         'lg' => 'style="font-size:30px;"',
-        'xl' => 'style="font-size:35px;"'
+        'xl' => 'style="font-size:30px;"',
+        'mega' => 'style="font-size:500px;"'
     ];
     return '<i class="material-icons text-' . $color . '" ' . $sizeIcon[$size] . '>&#x' . $codePoint . ';</i>';
 }
