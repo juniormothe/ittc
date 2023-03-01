@@ -46,13 +46,13 @@ define('LIMIT_PG', 15);
 
 
 //PRODUÇÃO  
-/* 
+/*
 $http_https = 'http://';
 define('GETT', filter_input_array(INPUT_GET,  FILTER_DEFAULT));
 define('POSTT', filter_input_array(INPUT_POST, FILTER_DEFAULT));
-define('URL', 'http://34.151.243.222/ittc/');
+define('URL', 'http://34.152.24.56/ittc/');
 define('URL_ATUAL', $http_https . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
-define('IMG', 'http://34.151.243.222/ittc/assets/images/');
+define('IMG', 'http://34.152.24.56/ittc/assets/images/');
 define('TITULO', 'ITTC');
 define('LEFT_RIGHT', [
     1=>'f1e6', 
